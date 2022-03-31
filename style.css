@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.header {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  height: 70px;
+}
+.top {
+  width: 100%;
+  height: 1020px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(11, 101, 198) 50%,
+    rgb(16, 91, 170) 100%
+  );
+}
+.logo {
+  width: 169px;
+  height: 38px;
+  max-height: 38.4px;
+  background-color: transparent;
+  background: url(https://trustwallet.com/assets/images/trust_logotype.svg);
+  color: white;
+  filter: brightness(0) invert(1);
+  font-weight: 600;
+  line-height: 38px;
+  font-size: 24px;
+  padding: 2.4px 0px 2.4px 0px;
+  white-space: nowrap;
+}
+.items_cont {
+  margin: auto;
+  width: 100%;
+  height: 43px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.nav {
+  width: 32px;
+  height: 32px;
+  background: transparent
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMCcgaGVpZ2h0PSczMCcgdmlld0JveD0nMCAwIDMwIDMwJz48cGF0aCBzdHJva2U9JyNmZmYnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyBzdHJva2Utd2lkdGg9JzInIGQ9J000IDdoMjJNNCAxNWgyMk00IDIzaDIyJy8+PC9zdmc+);
+  background-size: 100% 100%;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+.first_cont {
+  color: white;
+  width: ;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 36px;
+  width: 353px;
+  height: 85px;
+  letter-spacing: -0.72;
+  margin-top: 60px;
+}
+.first_cont h2 {
+  font-size: 36px;
+  line-height: 1;
+}
+.second {
+  width: 353px;
+  height: 90.5px;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 20px;
+}
+.downloads_cont {
+  width: 100%;
+  height: auto;
+  margin-top: 160px;
+}
+.play {
+  width: 160px;
+  height: 50px;
+  background: url(https://trustwallet.com/assets/images/download_buttons.svg);
+  margin: 15px auto;
+  background-position-x: 0;
+  background-position-y: -101px;
+  vertical-align: middle;
+}
+.app {
+  width: 160px;
+  height: 50px;
+  background: url(https://trustwallet.com/assets/images/download_buttons.svg);
+  margin: 15px auto;
+  background-position-x: 0;
+  background-position-y: 0;
+  vertical-align: middle;
+}
+.gallery {
+  width: 160px;
+  height: 50px;
+  background: url(https://trustwallet.com/assets/images/download_buttons.svg);
+  margin: 15px auto;
+  background-position-x: 0;
+  background-position-y: -152px;
+  vertical-align: middle;
+}
+.img_cont {
+  max-width: 100%;
+  min-width: 110%;
+  position: relative;
+  height: 418.3px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.img1 {
+  width: 388px;
+  height: 388px;
+  position: relative;
+  vertical-align: middle;
+  margin-bottom: 30px;
+  height: auto;
+  margin-left: -35px;
+  margin-top: 20px;
+}
+.col1 {
+  width: 393px;
+  height: 51px;
+  position: relative;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.fa-credit-card {
+  font-size: 20px;
+  color: rgb(11, 101, 198);
+}
+.buy {
+  display: inline;
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.col2 {
+  width: 393px;
+  height: 51px;
+  position: relative;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+.fa-exchange {
+  font-size: 20px;
+  color: rgb(11, 101, 198);
+}
+.exchange {
+  display: inline;
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.col3 {
+  width: 393px;
+  height: 51px;
+  position: relative;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+.fa-lock {
+  font-size: 20px;
+  color: rgb(11, 101, 198);
+}
+.private {
+  display: inline;
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.second_content {
+  width: 393px;
+  height: 177px;
+  max-width: 100%;
+  position: relative;
+  margin-top: 1rem;
+  text-align: center;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 20px;
+}
+.second_content span {
+  letter-spacing: -0.64px;
+  font-weight: 700;
+  height: 114.5px;
+  line-height: 38.4px;
+  font-size: 32px;
+  width: 353px;
+  margin-bottom: 1rem;
+}
+.second_content div {
+  font-size: 19px;
+  font-weight: 400;
+  height: 30px;
+  width: 353px;
+  color: rgb(74, 84, 94);
+  margin: 10px 0;
+}
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  height: 711px;
+  width: 393px;
+}
+.check {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mack {
+  width: 353px;
+  height: 77px;
+  border: 1px solid rgb(241, 244, 248);
+  padding: 1.5rem 2rem;
+  position: relative;
+  display: flex;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+.elements span {
+  margin: 0 5px;
+}
+.elements button {
+  background: rgb(8, 76, 150);
+  border-radius: 6px;
+  color: white;
+  margin-top: auto;
+  margin-top: 2rem;
+  border: 1px solid rgb(11, 101, 198);
+  outline-width: 0px;
+  padding: 0.8125rem 1.25rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.second_pic {
+  width: 393px;
+  height: 353px;
+  max-width: 100%;
+  position: relative;
+  padding: 0 20px;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.second_pic img {
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+  width: 353px;
+  height: 353px;
+  max-width: 100%;
+  margin-right: -25px;
+}
+
+.second_pic2 img {
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+  width: 353px;
+  height: 353px;
+  max-width: 100%;
+  margin-right: -5px;
+}
+
+.button {
+  background: rgb(8, 76, 150);
+  border-radius: 6px;
+  color: white;
+  margin-top: -90px;
+  margin-top: 2rem;
+  border: 1px solid rgb(11, 101, 198);
+  outline-width: 0px;
+  padding: 0.8125rem 1.25rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.third_content {
+  width: 393px;
+  height: 177px;
+  max-width: 100%;
+  position: relative;
+  margin-top: 2rem;
+  text-align: center;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 20px;
+}
+.third_content span {
+  letter-spacing: -0.64px;
+  font-weight: 700;
+  height: 114.5px;
+  line-height: 38.4px;
+  font-size: 22px;
+  width: 353px;
+  margin-bottom: 1rem;
+}
+.logo2 {
+  width: 169px;
+  height: 38px;
+  max-height: 38.4px;
+  background-color: transparent;
+  background: url(https://trustwallet.com/assets/images/trust_logotype.svg);
+  color: white;
+  font-weight: 600;
+  margin-top: -80px;
+  line-height: 38px;
+  font-size: 24px;
+  padding: 2.4px 0px 2.4px 0px;
+  white-space: nowrap;
+}
+.social_apps {
+  width: 353px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_apps i.fa {
+  margin: 0 3px;
+  color: rgb(8, 76, 150);
+  padding: 5px;
+  font-size: 22px;
+}
+ul {
+  width: 90%;
+  height: 400px;
+  max-width: 100%;
+  background: white;
+  overflow: hidden;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 1.25rem 0px;
+  z-index: 1000;
+  border-radius: 10px;
+}
+li {
+  list-style-type: none;
+  border-bottom: 1px solid #eeeeee;
+  text-align: left;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  font-weight: 500;
+}
+li:nth-child(6) {
+  border: none;
+}
+li.nav {
+  display: list-item;
+  width: 353px;
+}
+.loading_page {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: linear-gradient(
+    to bottom right,
+    rgb(11, 101, 198) 50%,
+    rgb(16, 91, 170) 100%
+  );
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 80px;
+  color: white;
+  margin-right: -20px;
+}
